@@ -18,7 +18,7 @@ use different sources by adding /sources:web, /sources:social, or /sources:schol
 5. start the app: `python3 app.py`
 6. connect your openai-compatible client to http://localhost:5000
 
-# how to use (dockerized)
+# how to use (docker)
 1. install docker
 2. build the image: `docker build -t pplx-oai .`
 3. (optional) adjust the docker-compose.yml, like e.g. binding ports or changing cookies.txt location
