@@ -12,9 +12,7 @@ use different sources by adding /sources:web, /sources:social, or /sources:schol
 
 # how to use
 1. install python3
-2. install the perplexity-ai library:
-   `git clone https://github.com/helallao/perplexity-ai.git`
-   `pip install -e ./perplexity-ai`
+2. install the perplexity-ai library: `git clone https://github.com/helallao/perplexity-ai.git && pip install -e ./perplexity-ai`
 3. install requirements: `pip install -r requirements.txt`
 4. (optional) paste all your cookie from your account using [this guide](https://github.com/helallao/perplexity-ai#how-to-get-cookies) and put them in cookies.txt
 5. start the app: `python3 app.py`
