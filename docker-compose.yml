@@ -1,0 +1,7 @@
+services:
+  pplx-oai:
+    image: pplx-oai
+    container_name: pplx-oai
+    volumes:
+      - ./cookies.txt:/app/cookies.txt
+    restart: always
